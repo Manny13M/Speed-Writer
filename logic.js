@@ -144,7 +144,7 @@ function keyupHandler()
 function gameWon()
 {
     completed = true
-    p.replaceChildren("Congratulations. Your time was " + seconds)
+    p.replaceChildren("Congratulations! You completed all " + difficulty.value + " words in " + seconds + " seconds!")
     p.style.color = 'Green';
 
     //Disable input field
